@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.wav\shell\ConvertToMP3]
+@="Convert to MP3"
+"Icon"="C:\\ffmpeg\\bin\\ffmpeg.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.wav\shell\ConvertToMP3\command]
+@="powershell.exe -NoProfile -ExecutionPolicy Bypass -Command \"& 'C:\\ffmpeg\\Convert to MP3 by drmd_lydn\\ConvertToMp3.ps1' '%1'\""
